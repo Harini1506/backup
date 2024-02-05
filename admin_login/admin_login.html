@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="admin_login.css" />
+  </head>
+  <body>
+    <form class="modal-content animate" action="admin_login.php" method="post">
+      <div class="container">
+        <h1>Admin Login</h1>
+        <label for="uname"><b>Username</b></label>
+        <input
+          type="text"
+          placeholder="Enter Username"
+          name="admin_name"
+          required
+        />
+
+        <label for="psw"><b>Password</b></label>
+        <input
+          type="password"
+          placeholder="Enter Password"
+          name="admin_password"
+          required
+        />
+
+        <button class="adminlogin" type="submit" id="adminlogin">Login</button>
+      </div>
+    </form>
+  </body>
+</html>
